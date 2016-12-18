@@ -1,0 +1,83 @@
+body{
+  align-items: center;
+  text-align: center;
+  vertical-align: center;
+  background:url("bg2.jpg");
+  background-repeat:no-repeat;
+  }
+
+#block{
+  border: 4px solid blue;
+  background-color: black;
+  width: 550px;
+  height:550px;
+  margin-top:1px;
+  margin-left:25%;
+  }
+
+#main{
+  display: inline;
+  float:left;
+  border-right: 3px groove rgb(60,60,130)
+  }
+
+header{
+  border-bottom: 3px groove blue;
+  }
+
+img{
+  margin-left:20px;
+  }
+
+#can{
+border-top: 3px groove rgb(60,60,130);
+  }
+
+aside{
+  border-left: 3px groove blue;
+  width:144px;
+  height: inherit;
+  color:white;
+  display: inline;
+  background-color: rgb(60,150,60);
+  float:right;
+  }
+
+
+#canvas2{
+  background-color: black;
+  border:3px solid white;
+  }
+
+h3{
+  color:yellow;
+  }
+
+p{
+  color:white;
+  background-color:rgb(100,40,30);
+  width:70%;
+  align-self: center;
+  margin-left: 15%;
+  }
+
+#scores{
+  border-top: 4px groove green;
+  }
+
+
+footer{
+  border:4px solid blue;
+  background-color: black;
+  width:550px;
+  height:30px;
+  margin-left:25%;
+  }
+footer h3{
+  display: inline;
+  color:pink;
+  }
+footer p{
+  display: inline;
+  background-color: black;
+  }
