@@ -3,9 +3,10 @@
 
   <head>
     <title>Tetris</title>
-    <script src="tetris.js"></script>
+    <meta charset="utf-8"/></meta>
     <link href="tetris.css" type="text/css" rel="stylesheet"/>
   </head>
+
 
   <body>
     <div id="block" >
@@ -14,12 +15,12 @@
 
         <header width="400">
           <img id="logo" src="logo.jpeg" width="70" height="50" />
-          <img id="play" src="play.png" width="50" height="50" title="play or continue"/>
+          <img id="play" src="play.png" onclick="change()" width="50" height="50" title="play or continue"/>
           <!--this will switch between play.png and pause.jpeg-->
-          <img id="replay" src="replay.png" widht="50" height="50" title="replay"/>
+          <img id="replay" src="replay.png" onclick="replay()" width="50" height="50" title="replay"/>
         </header>
 
-        <canvas id="can" width="400" height="486"></canvas><!--our main canvas-->
+        <canvas id="can" width="400" height="480" onclick="change()"></canvas><!--our main canvas-->
 
       </div>
 
@@ -46,6 +47,6 @@
       <p>Manish and Rishab</p>
     </footer>
 
-
+    <script src="tetris.js"></script>
   </body>
 </html>
